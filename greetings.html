@@ -14,7 +14,7 @@
 
 body{
     background-color: #fff;
-    line-height: 1.0;
+    line-height: 1.6;
 
 }
 
@@ -40,11 +40,11 @@ h1 {
 .card {
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
-    background: #F5F5F5;
+    background: #6495ED;
     width: 85vw;
-    color: #6495ED;
+    color: #f5f5f5;
     display: inline-block;
-    box-shadow: 2px 2px 1px 0px #6495ED;
+    box-shadow: 2px 2px 2px 2px #6495ED;
 }
 
 .card:hover {
@@ -71,7 +71,7 @@ h1 {
 
 .date {
     display: inline;
-    min-width: 140px;
+    min-width: 162px;
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
     padding-right: 30px;
@@ -102,7 +102,7 @@ h1 {
         <div class="colon">:</div>
         <div class="time" id="sec"></div>
       </div>
-    </div>
+           </div>
     
   </div>
 </div>
@@ -127,11 +127,11 @@ else{
 }
 hrs = today.getHours();
 if (hrs < 12)
-        greet = 'Good Morning Nunziata ';
+        greet = 'Good Morning  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon Nunziata ';
+        greet = 'Good Afternoon ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening Nunziata ';
+        greet = 'Good Evening  ';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
 document.getElementById('hour').innerHTML = hour;
@@ -169,3 +169,5 @@ dateTime()
 
 </body>
 </html>
+        
+        
